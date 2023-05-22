@@ -45,10 +45,10 @@ public class Main {
 
 
         //Test
-
-        scroll(ScrollDirection.RIGHT, 0.50);
         Thread.sleep(2000);
-        scroll(ScrollDirection.RIGHT, 0.70);
+        scroll(ScrollDirection.RIGHT, 0.50);
+        Thread.sleep(1000);
+        scroll(ScrollDirection.RIGHT, 0.50);
         Thread.sleep(1000);
 //        scroll(ScrollDirection.RIGHT, 0.50);
 //        Thread.sleep(1000);
